@@ -188,7 +188,7 @@ button:hover {
 /* MOBILE DESIGN */
 @media (max-width: 1000px) {
   .nav_links {
-    height: 200vh;
+    height: 1000vh;
     background: var(--Almost_White);
     display: none;
     z-index: 999;
