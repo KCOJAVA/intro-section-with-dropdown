@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <a href="#" class="logo_link"
+            ><img src="images/logo.svg" alt="logo" class="logo"
+          /></a>
+          <ul class="nav_links">
+            <div class="wrapper">
+              <img
+                src="images/icon-close-menu.svg"
+                alt="close button"
+                class="close_button"
+              />
+            </div>
+            <li>
+              <a href="#"
+                >Features<img
+                  class="arrowDownOne"
+                  src="images/icon-arrow-down.svg"
+                  alt=""
+              /></a>
+              <ul class="sub_list_1">
+                <li>
+                  <img src="images/icon-todo.svg" alt="" /><a href="#"
+                    >Todo list</a
+                  >
+                </li>
+                <li>
+                  <img src="images/icon-calendar.svg" alt="" /><a href="#"
+                    >Calendar</a
+                  >
+                </li>
+                <li>
+                  <img src="images/icon-reminders.svg" alt="" /><a href="#"
+                    >Remiinders</a
+                  >
+                </li>
+                <li>
+                  <img src="images/icon-planning.svg" alt="" /><a href="#"
+                    >Planning</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"
+                >Company
+                <img
+                  class="arrowDownTwo"
+                  src="images/icon-arrow-down.svg"
+                  alt=""
+              /></a>
+              <ul class="sub_list_2">
+                <li><a href="">History</a></li>
+                <li><a href="">Our Team</a></li>
+                <li><a href="">Blog</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+            <div class="mobile_buttons">
+              <a href="#" class="cta1"
+                ><button class="login_button">Login</button></a
+              >
+              <a href="#" class="cta2"
+                ><button class="register_button">Register</button></a
+              >
+            </div>
+          </ul>
+        </nav>
+        <div class="desktop_buttons">
+          <a href="#" class="cta"
+            ><button class="login_button_desktop">Login</button></a
+          >
+          <a href="#" class="cta"><button>Register</button></a>
+        </div>
+        <img src="images/icon-menu.svg" alt="menue" class="hamburger" />
+      </header>
+      <div class="banner">
+        <div class="div_1">
+          <h1>
+            Make<br />
+            remote work
+          </h1>
+          <p class="paragraph">
+            Get your team in sync, no matter your location. Streamline
+            processes. Create team rituals. and watch productivity soar.
+          </p>
+          <a href="#"
+            ><button type="button" class="cta learn_more">Learn more</button></a
+          >
+          <div class="social_icons">
+            <img src="images/client-databiz.svg" alt="" />
+            <img src="images/client-audiophile.svg" alt="" />
+            <img src="images/client-meet.svg" alt="" />
+            <img src="images/client-maker.svg" alt="" />
+          </div>
+        </div>
+        <div class="div_2">
+          <img
+            class="hero_desktop"
+            width="313"
+            src="images/image-hero-desktop.png"
+            alt="advert"
+          />
+        </div>
+        <img src="images/image-hero-mobile.png" alt="" class="hero_mobile" />
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+  <script src="index.js"></script>
+</html>
